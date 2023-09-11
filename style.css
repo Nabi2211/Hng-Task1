@@ -1,0 +1,37 @@
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style for Slack Name */
+[data-testid="slackUserName"] {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Style for my Slack Display Picture */
+[data-testid="slackDisplayImage"] {
+    width: 250px;
+    height: 200px;
+    border-radius: 5%;
+    margin: 20px auto;
+}
+
+/* Style for Current Day of the Week and Current UTC Time */
+[data-testid="currentDayOfTheWeek"],
+[data-testid="currentUTCTime"] {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Style for my Track */
+[data-testid="myTrack"] {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #0074e4;
+    font-weight: bold;
+}
+
